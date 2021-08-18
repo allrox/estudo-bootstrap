@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
+
+h1, h2, h3, h4 {
+	font-family: 'Work Sans', sans-serif !important;
+	font-weight: 300 !important;
+	color: #d14759;
+}
+
+article {
+	font-family: 'Work Sans', sans-serif;
+	font-weight:300;
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+.navbar-logo {
+	font-family: 'Work Sans', sans-serif;
+	font-weight:500;
+	font-size: 1.7em !important;
+	color: #d14759 !important;
+}
+
+.navbar-bg {
+	background: #fff2ee;
+}
+
+.carrossel {
+	height: 550px;
+	margin-top: 65px;
+}
+
+.imagem-carrossel {
+	object-fit: cover;
+	height: 550px;
+}
+
+
+.titulo-slider {
+	font-size: 4em;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+#titulo {
+	width: 100%;
+}
+
+#destaques {
+	background: #fff2ee;
+	padding: 2em 0em;
+}
+
+#historia {
+	padding: 7em 0em 6em 0em;
+	background: url(img/bg-petalas.jpg) #d14759;
+	background-size: cover;
+}
+
+.cards-home {
+	padding: 4em 0em;
+	background: #fff2ee;
+}
+
+.card-home:hover {
+	/*border: 2px solid #d14759;*/
+	transition: 200ms;
+	transform: scale(1.03);
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.card-text {
+	margin:1em 0em;
+}
+
+.conteudo-historia {
+	padding: 4em 0;
+}
+
+.cor-rosa {
+	color: #d14759;
+}
+
+.margem-abaixo {
+	margin-bottom:1em;
+}
+
+.box-home {
+	text-align: center;
+}
+
+.footer {
+	background-color: #d14759;
+	width: 100%;
+	padding: 30px 0px 30px 0;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.video:hover {
+	transition: 260ms;
+	transform: scale(1.02);
+}
+
+.botao-personalizado {
+	background-color: #d14759 !important;
+	color:#ffffff !important;
+}
+
+.destaque:hover {
+	transition: 200ms;
+	transform: scale(1.2);
+}
